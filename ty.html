@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you Page</title>
+</head>
+<style>
+            @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+        body{
+        margin: 87px 87px 45px 45px;
+        font-family: 'Architects Daughter', cursive;
+        font-size: xx-large;
+        background-color: cyan;
+        color: light lime;
+        border-style:double;
+        border-radius: 25px;
+        border-width: 20px;
+        border-color: rgb(221, 221, 11);
+        padding-left: 85px;
+        padding-right: 85px;
+        text-align: center;
+    }
+        .class1{
+        border: limegreen;
+        border-style:groove;
+        border-radius: 14px;
+        border-width: 17px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    nav{
+        background-color: limegreen;
+        color: yellow;
+        font-family: cursive;
+    }
+    nav > ul{
+        color: yellow;
+        list-style-type: none;
+        border: 3px solid;
+    }
+    nav > ul > li{
+        display: inline;
+        padding: 25px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    nav > ul > li > a{
+        text-decoration: none;
+        color: blue;
+        font-size: 40px;
+    }
+    nav > ul > li > a:hover{
+        color: yellow;
+    }
+    .dropdown{
+position: relative;
+display: inline-block;
+    }
+    .btn{
+        background-color: limegreen;
+        font-family: cursive;
+        padding: 10px;
+        text-decoration: none;
+        color: blue;
+        font-size: 40px;
+        border: none;
+    }
+    .btn:hover{
+        color: yellow;
+    }
+    .dropdowncontent{
+display: none;
+background: cyan;
+position: absolute;
+z-index: 1;
+min-width: 160px;
+border: 2px solid yellow;
+    }
+    .dropdowncontent a:hover{
+        background-color: lightgoldenrodyellow;
+        color: darkgoldenrod;
+    }
+    .dropdowncontent a {
+        text-decoration: none;
+        color: blue;
+        display: block;
+        padding: 10px;
+    }
+.dropdown:hover .dropdowncontent{display: block;}
+img{
+            border: groove;
+            border-color: blue;
+            border-width: 15px;
+            width: 300px;
+        }
+</style>
+<body>
+    <header>
+        <nav>
+        <ul>
+        <li><a href="./index.html">Home</a></li>
+
+<div class="dropdown">
+    <button class="btn">Projects</button>
+<div class="dropdowncontent">
+    <li><a href="./mfb.html">Favourtite Books</a></li>
+    <li><a href="./s.html">Sports</a></li>
+    <li><a href="./tm.html">Taj Mahal</a></li>
+    <li><a href="./sp.html">Space</a></li>
+</div>
+</div>
+        <li><a href="./ty.html">Thank You</a></li>
+</ul>
+</nav>
+</header>
+    <h1>Thank you ! </h1>
+    <img src="./Static/ty.gif" alt="Thank You">
+    <p class="class1">I really have to thank each and every one of you who has come and visited my website, I hope you all are doing well, it has taken a long time for me to complete this website and so i wish you all the best for all of you for the best from life ! - THANK YOU - </p>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Taj Mahal</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+            body{
+                margin: 87px 87px 45px 45px;
+                font-family: 'Architects Daughter', cursive;
+                font-size: xx-large;
+                background-color: cyan;
+                color: light lime;
+                border-style:double;
+                border-radius: 25px;
+                border-width: 20px;
+                border-color: rgb(221, 221, 11);
+                padding-left: 85px;
+                padding-right: 85px;
+                text-align: center;
+            }
+            img{
+                border: groove;
+                border-color: limegreen;
+                border-width: 15px;
+            }
+            nav{
+        background-color: limegreen;
+        color: yellow;
+        font-family: cursive;
+        position: relative;
+    }
+    nav > ul{
+        color: yellow;
+        list-style-type: none;
+        border: 3px solid;
+    }
+    nav > ul > li{
+        display: inline;
+        padding: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    nav > ul > li > a{
+        text-decoration: none;
+        color: blue;
+        font-size: 40px;
+    }
+    nav > ul > li > a:hover{
+        color: yellow;
+    }
+    .dropdown{
+position: relative;
+display: inline-block;
+    }
+    .btn{
+        background-color: limegreen;
+        font-family: cursive;
+        padding: 10px;
+        text-decoration: none;
+        color: blue;
+        font-size: 40px;
+        border: none;
+    }
+    .btn:hover{
+        color: yellow;
+    }
+    .dropdowncontent{
+display: none;
+background: cyan;
+position: absolute;
+z-index: 1;
+min-width: 160px;
+border: 2px solid yellow;
+    }
+    .dropdowncontent a:hover{
+        background-color: lightgoldenrodyellow;
+        color: darkgoldenrod;
+    }
+    .dropdowncontent a {
+        text-decoration: none;
+        color: blue;
+        display: block;
+        padding: 10px;
+    }
+.dropdown:hover .dropdowncontent{display: block;}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+        <li><a href="./index.html">Home</a></li>
+
+<div class="dropdown">
+    <button class="btn">Projects</button>
+<div class="dropdowncontent">
+    <li><a href="./mfb.html">Favourtite Books</a></li>
+    <li><a href="./s.html">Sports</a></li>
+    <li><a href="./tm.html">Taj Mahal</a></li>
+    <li><a href="./sp.html">Space</a></li>
+</div>
+</div>
+        <li><a href="./ty.html">Thank You</a></li>
+</ul>
+</nav>
+</header>
+        <div class="mahal">
+            <h3>Taj Mahal</h3>
+            <a href="https://en.wikipedia.org/wiki/Taj_Mahal"><img src="./Static/tm.jpg"alt="Taj Mahal"></a>
+            <p>The Taj Mahal is one of the most magnificent Indian historical monuments with complex visualization. It is white marble mausoleum built by the 17th century Mughal Emperor Shah Jahan for the loving memory of the Emperor’s beloved wife, Mumtaz Mahal.</p>
+        </div>
+    </body>
+</html>

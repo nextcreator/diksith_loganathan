@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favourite Books</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+        body{
+            background-color: cyan;
+            text-align: center;
+            font-family: 'Architects Daughter', cursive;
+            font-size: xx-large;
+            margin: 75px;
+            border:double limegreen 25px;
+            border-radius: 25px;
+            padding: 50px;
+        }
+        .class1{
+        border: yellow;
+        border-style:groove;
+        border-radius: 14px;
+        border-width: 17px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+        .class2{
+        border: yellow;
+        border-style:groove;
+        border-radius: 14px;
+        border-width: 17px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+        img{
+            border: groove;
+            border-color: limegreen;
+            border-width: 15px;
+            width: 200px;
+        }
+        nav{
+        background-color: limegreen;
+        color: yellow;
+        font-family: cursive;
+        position: relative;
+    }
+    nav > ul{
+        color: yellow;
+        list-style-type: none;
+        border: 3px solid;
+    }
+    nav > ul > li{
+        display: inline;
+        padding: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    nav > ul > li > a{
+        text-decoration: none;
+        color: blue;
+        font-size: 40px;
+    }
+    nav > ul > li > a:hover{
+        color: yellow;
+    }
+    .dropdown{
+position: relative;
+display: inline-block;
+    }
+    .btn{
+        background-color: limegreen;
+        font-family: cursive;
+        padding: 10px;
+        text-decoration: none;
+        color: blue;
+        font-size: 40px;
+        border: none;
+    }
+    .btn:hover{
+        color: yellow;
+    }
+    .dropdowncontent{
+display: none;
+background: cyan;
+position: absolute;
+z-index: 1;
+min-width: 160px;
+border: 2px solid yellow;
+    }
+    .dropdowncontent a:hover{
+        background-color: lightgoldenrodyellow;
+        color: darkgoldenrod;
+    }
+    .dropdowncontent a {
+        text-decoration: none;
+        color: blue;
+        display: block;
+        padding: 10px;
+    }
+.dropdown:hover .dropdowncontent{display: block;}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <ul>
+        <li><a href="./index.html">Home</a></li>
+
+<div class="dropdown">
+    <button class="btn">Projects</button>
+<div class="dropdowncontent">
+    <li><a href="./mfb.html">Favourtite Books</a></li>
+    <li><a href="./s.html">Sports</a></li>
+    <li><a href="./tm.html">Taj Mahal</a></li>
+    <li><a href="./sp.html">Space</a></li>
+</div>
+</div>
+        <li><a href="./ty.html">Thank You</a></li>
+</ul>
+</nav>
+</header>
+    <h2>Wimpy Kid Books</h2>
+    <a href="https://wimpykid.com/"><img src="./Static/wk.jpg" alt="Wimpy Kid"></a>
+    <p class="class1" title="about Wimpy Kid books">Wimpy Kid books are my favourite books as they almost relate to me exactly! They are very entertaining and fun to read. There are many books like Dog days, Old school, Deep end or like the Get away. I am currently reading the Ugly truth and it is really intersting! My favourite book of Wimpy Kid is the dog days, because I JUST LIKE IT ;)</p>
+    <br><br>
+    <h2>Geronimo Stilton Books</h2>
+    <a href="https://geronimostilton.com/WW-en/home/"><img src="./Static/gs.jpg" alt="Geronimo Stilton"></a>
+    <p class="class2" title="about Geronimo Stilton books">Geronimo Stilton books are also one of my favourite books as they are really atracting to read. in some of the books, they even have fun activities and games you can try out! There are 4 versions of the books, one is the normal Geronimo Stilton book, second is the Space Mice edittion as Geronimo Stiltonx, third is the Cave Mice edittion as Geronimo Stiltonoot and finnaly they have the special version like The Journey Through Time! They are very fun to read i have read all the Space Mice edittion books!
+    </p>
+</body>
+</html>
